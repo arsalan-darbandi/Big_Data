@@ -16,7 +16,7 @@
 3. Installation<br>
 [a. Installing CentOS](#centos)
 [b. Installing Cloudera Manager](#manager)
-...snip...    
+
 <a name="headers"/>
 ## Headers
 
