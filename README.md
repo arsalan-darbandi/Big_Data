@@ -6,7 +6,7 @@
 
 ## Table of Contents
 #### 1. Introduction
-    ####a. [A Road Map for Reader and Structures](#headers)  
+#### a. [A Road Map for Reader and Structures](#headers)  
 
 [Headers](#headers)  
 [Emphasis](#emphasis)  
