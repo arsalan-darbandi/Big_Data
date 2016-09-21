@@ -6,8 +6,11 @@
 
 ##Contents
 ##### Table of Contents  
-[Headers](#headers)  
-[Emphasis](#emphasis)  
+1. Introduction
+[a. A Road Map for Reader and Structures](#headers)  
+[b. About Hadoop and Other Big Data Platforms](#emphasis)  
+[c. A Road Map for Reader and Structures](#headers)  
+[d. About Hadoop and Other Big Data Platforms](#emphasis)  
 ...snip...    
 <a name="headers"/>
 ## Headers
