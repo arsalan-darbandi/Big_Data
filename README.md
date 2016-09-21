@@ -4,15 +4,13 @@
   Hadoop and Big Data
 </h1>
 
-## Table of Contents
-##### [1. Introduction]()
-[a. A Road Map for Reader and Structures](#headers)  
-
+##Contents
+##### Table of Contents  
 [Headers](#headers)  
 [Emphasis](#emphasis)  
 ...snip...    
 <a name="headers"/>
-## A Road Map for Reader and Structures
+## Headers
 
 In this github, it is tried to explain how to install Hadoop by using Cloudera on CentOs. It is not aimed to go to details on Big Data and platforms related to it but in some parts will be explained to briefly. 
 
