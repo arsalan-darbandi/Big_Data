@@ -4,8 +4,8 @@
   Hadoop and Big Data
 </h1>
 
-##Contents
-##### Table of Contents  
+## Table of Contents
+
 1. Introduction<br>
 [a. A Road Map for Reader and Structures](#structures)  
 [b. About Hadoop and Other Big Data Platforms](#hadoop)  
