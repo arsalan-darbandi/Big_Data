@@ -7,10 +7,15 @@
 ##Contents
 ##### Table of Contents  
 1. Introduction<br>
-[a. A Road Map for Reader and Structures](#headers)  
-[b. About Hadoop and Other Big Data Platforms](#emphasis)  
-[c. A Road Map for Reader and Structures](#headers)  
-[d. About Hadoop and Other Big Data Platforms](#emphasis)  
+[a. A Road Map for Reader and Structures](#structures)  
+[b. About Hadoop and Other Big Data Platforms](#hadoop)  
+[c. Installing Hadoop and Platforms Manually](#manually)  
+2. Cloudera and Hortonworks
+[a. Compare Cloudera and Hotronworks](#c_vs_h)  
+[b. Cloudera](#cloudera)  
+[3. Installing CentOS](#centos)
+4. Installing Cloudera
+[a. Installing Cloudera Manager]
 ...snip...    
 <a name="headers"/>
 ## Headers
