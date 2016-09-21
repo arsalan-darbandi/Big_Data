@@ -17,6 +17,7 @@
 [a. Installing CentOS](#centos)
 [b. Installing Cloudera Manager](#manager)
 
+<br>
 <a name="structures"/>
 ## a. A Road Map for Reader and Structures
 
