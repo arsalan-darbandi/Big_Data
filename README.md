@@ -4,8 +4,7 @@
   Hadoop and Big Data
 </h1>
 
-##Contents
-##### Table of Contents  
+## Table of Contents
 [Headers](#headers)  
 [Emphasis](#emphasis)  
 ...snip...    
