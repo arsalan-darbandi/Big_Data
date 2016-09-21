@@ -6,7 +6,7 @@
 
 ##Contents
 ##### Table of Contents  
-Introduction
+Introduction<br>
 [a. A Road Map for Reader and Structures](#headers)  
 [b. About Hadoop and Other Big Data Platforms](#emphasis)  
 [c. A Road Map for Reader and Structures](#headers)  
