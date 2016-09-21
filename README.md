@@ -13,9 +13,9 @@
 2. Cloudera and Hortonworks<br>
 [a. Compare Cloudera and Hotronworks](#c_vs_h)  
 [b. Cloudera](#cloudera)  
-[3. Installing CentOS](#centos)<br>
-4. Installing Cloudera<br>
-[a. Installing Cloudera Manager]
+3. Installation
+[a. Installing CentOS](#centos)
+[b. Installing Cloudera Manager](#manager)
 ...snip...    
 <a name="headers"/>
 ## Headers
