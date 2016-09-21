@@ -18,6 +18,7 @@
 [b. Installing Cloudera Manager](#manager)
 
 <br>
+# 1. Introduction
 <a name="structures"/>
 ## a. A Road Map for Reader and Structures
 
