@@ -69,11 +69,8 @@ In this part will be shown how to install CentOS and is selected because it is o
 together it does not need any changes in setup however for Virtual Box or other virtual machines you need to change settings.
 For installing Cloudera, There is a master node which has better system configuration and two slave nodes with very simple configuration.
 Master’s Hard disk capacity is depended on your data but for number of processor, it is better you give 2 processor cores and for memory more than 4GB which I give 8GB(Fig.1) while you can leave configuration of slaves as default.
+
 <img align="center" height="500px" src="https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.1.png?raw=true">
-
-
-
-![Fig.1](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.1.png?raw=true)
 
 
 ### Image 1
