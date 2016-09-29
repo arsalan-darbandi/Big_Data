@@ -84,9 +84,16 @@ After installing CentOs on all machines, it is time to change a couple of change
 First you have to login to the system, by typing "root" and pressing enter you will login as a root then you have to insert root password.
 ```javascript
 slave1 login: root
+Password: 
 ```
+Below command is used for checking connection of system. If your system doesn't show any ip, it means that you are not connected to any system. 
+```javascript
+[root@slave1 ~]# ip route show
+```
+To connect the system to a network, First we have to go to below direction. 
+```javascript
+### As you know in python # is used to add comment. I used ### to add comment for those codes need more description. 
 
-ip route show is a command to see ip of your system. After login
-to your CentOS by using that command you
-see that your system does not have any ip which means your system is not connected to any network. you must change setting of your network to make a connection automatically to network of NAT(Fig.4).
 
+alert(s);
+```
