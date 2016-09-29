@@ -77,12 +77,16 @@ pass all other steps without any changes until the page to select mode of your o
 
 
 
-<a name="cloudera">
-### b. Cloudera
+<a name="manager">
+### b. Installing Cloudera Manager
 
-In this part will be explained about different type of Cloudera and some important points that during installing and working with Cloudera you must be careful.
-By going to http://www.cloudera.com/downloads.html you will face with 3 different
-types of Cloudera. QuickStarts is a demo for Cloudera which is installed on a single node and has amazing tutorial for beginner which is suggested before installing Cloudera Manager try QuickStarts and It is built for VM and Docker. On part 4.b you can find more information about Cloudera QuickStarts.
-Cloudera Manager is the second package for analyzing big data. This package is very useful because you can run it on several machines and analyzing your dataset. QuickStarts is for a node and Cloudera Director is for cloud with many nodes however Cloudera Manager can be defined for a single node or as many as nodes you need. You can find information about supported operating systems for different version of Cloudera under Download Cloudera Manager. Also you can find components which are supported by Cloudera Manager.
-The last type of Cloudera is Cloudera Director which is for cloud area and this pdf does not cover it and you can find all documents related to it on Cloudera website.
+After installing CentOs on all machines, it is time to change a couple of changes on some of system files to make a connection between all of nodes in your cluster.
+First you have to login to the system, by typing "root" and pressing enter you will login as a root then you have to insert root password.
+```javascript
+slave1 login: root
+```
+
+ip route show is a command to see ip of your system. After login
+to your CentOS by using that command you
+see that your system does not have any ip which means your system is not connected to any network. you must change setting of your network to make a connection automatically to network of NAT(Fig.4).
 
