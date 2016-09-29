@@ -70,18 +70,11 @@ together it does not need any changes in setup however for Virtual Box or other 
 For installing Cloudera, There is a master node which has better system configuration and two slave nodes with very simple configuration.
 Master’s Hard disk capacity is depended on your data but for number of processor, it is better you give 2 processor cores and for memory more than 4GB which I give 8GB ([Fig.1](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.1.png?raw=true)). while you can leave configuration of slaves as default.
 
-<img align="center" height="500px" src="https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.1.png?raw=true">
-
-
 After installation page comes up you only have to past steps without any changes until the page that asks you for Hostname. 
-hostname you should put name with name of group or cluster. For instance, First by selecting master or any name for you master as the name for your system then by selecting shadoop which you can define any name you want for your cluster(Fig.2).
+hostname you should put name with name of group or cluster. For instance, First by selecting master or any name for you master as the name for your system then by selecting shadoop which you can define any name you want for your cluster([Fig.2](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.2.png?raw=true)).
 
-<img align="center" height="500px" src="https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.2.png?raw=true">
+pass all other steps without any changes until the page to select mode of your operator system. For master Desktop and for slaves Database server are selected because on Desktop you have GUI which is necessary for CDH however GUI it does not have any usage for slaves([Fig.3](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.3.png?raw=true)).
 
-
-pass all other steps without any changes until the page to select mode of your operator system. For master Desktop and for slaves Database server are selected because on Desktop you have GUI which is necessary for CDH however GUI it does not have any usage for slaves(Fig.3).
-
-<img align="center" height="500px" src="https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.3.png?raw=true">
 
 
 <a name="cloudera">
