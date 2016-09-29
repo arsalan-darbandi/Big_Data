@@ -73,16 +73,16 @@ Master’s Hard disk capacity is depended on your data but for number of process
 <img align="center" height="500px" src="https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.1.png?raw=true">
 
 
-### Image 1
-
 After installation page comes up you only have to past steps without any changes until the page that asks you for Hostname. 
 hostname you should put name with name of group or cluster. For instance, First by selecting master or any name for you master as the name for your system then by selecting shadoop which you can define any name you want for your cluster(Fig.2).
 
-### Image 2
+<img align="center" height="500px" src="https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.2.png?raw=true">
+
 
 pass all other steps without any changes until the page to select mode of your operator system. For master Desktop and for slaves Database server are selected because on Desktop you have GUI which is necessary for CDH however GUI it does not have any usage for slaves(Fig.3).
 
-### Image 3
+<img align="center" height="500px" src="https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.3.png?raw=true">
+
 
 <a name="cloudera">
 ## b. Cloudera
