@@ -71,6 +71,9 @@ For installing Cloudera, There is a master node which has better system configur
 Master’s Hard disk capacity is depended on your data but for number of processor, it is better you give 2 processor cores and for memory more than 4GB which I give 8GB(Fig.1) while you can leave configuration of slaves as default.
 
 ![Fig.1](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.1.png?raw=true)
+<img align="center" width="100px" src="https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.1.png?raw=true">
+
+
 ### Image 1
 
 After installation page comes up you only have to past steps without any changes until the page that asks you for Hostname. 
