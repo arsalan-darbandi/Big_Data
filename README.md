@@ -168,6 +168,7 @@ After all these steps, your machines are ready for Cloudera. By going to Clouder
 
 After Cloudera installing is done your browser automatically will be open and by typing username and password both “admin” login to your account and you do not need to change any options, only in page to select edition you can select free edition. In the page “specify hosts for your CDH cluster installation.” by typing name of your systems which in this pdf are used as “master, slave1, slave2”, you can find machines in the cluster. At last by adding password for your ssh your installation will start.
 
-
+After all these steps and finish installation, you must to configure setting of Cloudera and it was left as default([Fig.15](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.15.png?raw=true)),([Fig.16,17](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.16,17.png?raw=true)). 
+Finally, in the last figure you can see area of Cloudera but in some cases you will face with red and yellow circles which are important but they are configuration issue such as memory capacity and other things which do not have make any issue to run your analyzing([Fig.18](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.18.png?raw=true)).
 
 
