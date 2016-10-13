@@ -115,6 +115,6 @@ BOOTPROTO=dhcp
 ### After make all changes you want by pressing escape button and then by typing ":wq!" you can save and exit from the file. 
 ```
 After all changes you should restart your system([Fig.7](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.7.png?raw=true)).
-``javascript
+```javascript
 [root@slave1 network-scripts]# service network restart
 ```
