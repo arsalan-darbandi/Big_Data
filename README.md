@@ -125,8 +125,43 @@ We assigned hostname during installaion for nodes but if you forgot to do it you
 [root@slave1 ~]# cd /etc/sysconfig
 [root@slave1 sysconfig]# vi network
 ```
-``javascript
+```javascript
 NETWORKING=yes
 HOSTNAME=slave1
 ```
 Now it is time to introduce ip and name of each system to other systems in the cluster by adding name and ip of all machines for all machines. By using vi /etc/hosts you are opening hosts file and you must add ip and name which by using ip route show you can find. Following [Fig.8](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.8.png?raw=true) and [Fig.9](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.9.png?raw=true) and do not forget to do it for all machines.
+```javascript
+[root@slave1 sysconfig]# ip route show ### check ip configuration
+[root@slave1 sysconfig]# vi /etc/hosts 
+```
+```javascript
+127.0.0.1 localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1       localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+192.168.101.173 master.shadoop.com master
+192.168.101.174 slave1.shadoop.com slave1
+192.168.101.175 slave2.shadoop.com slave2
+```
+Only two more steps are left to do on all machines before installing Cloudera.
+First you should disable selinux by going to below directory and after that reboot your systems([Fig.10](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.10.png?raw=true)).
+```javascript
+[root@slave1 sysconfig]# vi /etc/selinux/config
+```
+```javascript
+# This file controls the state of SELinux on the system.
+# SELINUX= can take one of these three values:
+#     enforcing - SELinux security policy is enforced.
+#     permissive - SELinux prints warnings instead of enforcing.
+#     disabled - No SELinux policy is loaded.
+SELINUX=disabled
+# SELINUXTYPE= can take one of these two values:
+#     targeted - Targeted processes are protected,
+#     mls - Multi Level Security protection.
+SELINUXTYPE=targeted
+```
+Second, you must stop firewall on master machine and iptables on slaves. try using service iptables stop and service ip6tables stop on slaves and for master by going to system-tab\ administration\ firewall, disable it from there ([Fig.11](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.11.png?raw=true)),([Fig.12](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.12.png?raw=true)).
+```javascript
+[root@slave1 ~]# service iptables stop
+[root@slave1 ~]# service ip6tables stop
+
+```
