@@ -92,7 +92,7 @@ Below command is used for checking connection of system. If your system doesn't 
 ```
 To connect the system to a network, First we have to go to below direction. 
 ```javascript
-### As you know in python # is used to add comment. I used ### to add comment for those codes need more description. 
+### I used ### to add comment for those codes need more description. 
 
 
 alert(s);
