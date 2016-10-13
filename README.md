@@ -163,5 +163,11 @@ Second, you must stop firewall on master machine and iptables on slaves. try usi
 ```javascript
 [root@slave1 ~]# service iptables stop
 [root@slave1 ~]# service ip6tables stop
-
 ```
+After all these steps, your machines are ready for Cloudera. By going to Cloudera link address(www.cloudera.com), by going to download page you can find Cloudera Manager there. Click on download it will give you commands to installing Cloudera on your master. Attention that instead of using installer/latest/ we want to install version 5.4.0 so change latest to 4.5.0 ([Fig.13](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.13.png?raw=true)),([Fig.14](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.14.png?raw=true)). Moreover, under that instructions you can find how to prepare your machines to install Cloudera which we prepared.
+
+After Cloudera installing is done your browser automatically will be open and by typing username and password both “admin” login to your account and you do not need to change any options, only in page to select edition you can select free edition. In the page “specify hosts for your CDH cluster installation.” by typing name of your systems which in this pdf are used as “master, slave1, slave2”, you can find machines in the cluster. At last by adding password for your ssh your installation will start.
+
+
+
+
