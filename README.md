@@ -89,13 +89,32 @@ I used ### to add comment for those codes need more description.
 slave1 login: root
 Password: 
 ```
-Below command is used for checking connection of system. If your system doesn't show any ip, it means that you are not connected to any system. 
+Below command is used for checking connection of system([Fig.4](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.4.png?raw=true)). If your system doesn't show any ip, it means that you are not connected to any system. 
 ```javascript
 [root@slave1 ~]# ip route show
 ```
-To connect the system to a network, First we have to go to below direction. 
+To connect the system to a network, First we have to go to below direction([Fig.5](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.5.png?raw=true)). 
 ```javascript
 [root@slave1 ~]# cd /etc/sysconfig/network-scripts  ### cd is a Linux command to change the directory/folder.
-[root@slave1 ~]# ls ### By this command you sould see all files and folders inside the directory/folder that we are in.  
-
+[root@slave1 network-scripts]# ls ### By this command you sould see all files and folders inside the directory/folder that we are in.  
+```
+To make a connection between your system to network we have to change ONBOOT from no to yes in ifcfg file. This file may has different name in different system because of that we used ls command to find the name.
+```javascript
+[root@slave1 network-scripts]# vi ifcfg-eth0 ### Editing ifcfg-eth0 file, you can use nano instead of vi as another editer. 
+```
+Information in that file(leave all setting as default except ONBOOT)([Fig.6](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.6.png?raw=true)):
+```javascript
+### To make a change in a folder by pressing "a" you are able to make any changes you want.
+DEVICE=eth0
+HWADDR=##:##:##:##:##:##
+TYPE=Ethernet
+UUID=########-####-####-####-#############
+ONBOOT=yes
+NM_CONTROLLED=yes
+BOOTPROTO=dhcp
+### After make all changes you want by pressing escape button and then by typing ":wq!" you can save and exit from the file. 
+```
+After all changes you should restart your system([Fig.7](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.7.png?raw=true)).
+``javascript
+[root@slave1 network-scripts]# service network restart
 ```
