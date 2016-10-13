@@ -82,8 +82,10 @@ pass all other steps without any changes until the page to select mode of your o
 
 After installing CentOs on all machines, it is time to change a couple of changes on some of system files to make a connection between all of nodes in your cluster.
 First you have to login to the system, by typing "root" and pressing enter you will login as a root then you have to insert root password.
+
 I used ### to add comment for those codes need more description. 
 ```javascript
+### slave1 is name of one of my nodes. 
 slave1 login: root
 Password: 
 ```
@@ -94,5 +96,6 @@ Below command is used for checking connection of system. If your system doesn't 
 To connect the system to a network, First we have to go to below direction. 
 ```javascript
 [root@slave1 ~]# cd /etc/sysconfig/network-scripts  ### cd is a Linux command to change the directory/folder.
+[root@slave1 ~]# ls ### By this command you sould see all files and folders inside the directory/folder that we are in.  
 
 ```
