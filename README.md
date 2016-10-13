@@ -118,3 +118,15 @@ After all changes you should restart your system([Fig.7](https://github.com/asik
 ```javascript
 [root@slave1 network-scripts]# service network restart
 ```
+Repeat all these processes for all nodes you have.
+We assigned hostname during installaion for nodes but if you forgot to do it you can do it now by editing the file network in etc/sysconfig directory. 
+```javascript
+[root@slave1 network-scripts]# cd ### You can go back to first page. 
+[root@slave1 ~]# cd /etc/sysconfig
+[root@slave1 sysconfig]# vi network
+```
+``javascript
+NETWORKING=yes
+HOSTNAME=slave1
+```
+Now it is time to introduce ip and name of each system to other systems in the cluster by adding name and ip of all machines for all machines. By using vi /etc/hosts you are opening hosts file and you must add ip and name which by using ip route show you can find. Following [Fig.8](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.8.png?raw=true) and [Fig.9](https://github.com/asikhalaban/Big_Data/blob/master/img/Fig.9.png?raw=true) and do not forget to do it for all machines.
