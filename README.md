@@ -121,7 +121,7 @@ After all changes you should restart your system([Fig.7](https://github.com/asik
 Repeat all these processes for all nodes you have.
 We assigned hostname during installaion for nodes but if you forgot to do it you can do it now by editing the file network in etc/sysconfig directory. 
 ```javascript
-[root@slave1 network-scripts]# cd ### You'ld go back to first page. 
+[root@slave1 network-scripts]# cd ### You would go back to first page. 
 [root@slave1 ~]# cd /etc/sysconfig
 [root@slave1 sysconfig]# vi network
 ```
